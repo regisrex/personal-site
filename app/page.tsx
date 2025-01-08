@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6">
           <P>
-            I&apos;m Regis and I&apos;m a software engineer, a UX Designer, a mentor, and tech-blogger. My current focus is building high experience software applications and coding tools.
+            I&apos;m Regis and I&apos;m a software engineer, a user experience designer and a mentor. My current focus is building high experience software applications and coding tools.
           </P>
           <P>
             I&apos;ve been building software for over 3 years now. Most recently I&apos;ve been working on

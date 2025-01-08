@@ -45,7 +45,7 @@ export default function Home() {
             <Link href="https://scriptylabs.com" className="spanlink">
               &nbsp;ScriptyLabs&nbsp;
             </Link>
-            which allows for domain management and web hosting.
+            which allows  domain management and web hosting.
           </P>
           <P>
             I&apos;m excited about tech ideas and open source devtools. If you have something you&apos;d like to craft together, don&apos;t hesitate to reach out at{" "}

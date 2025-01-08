@@ -22,7 +22,7 @@ const socials = [
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/regisrex",
+    href: "https://twitter.com/regissrex",
   },
 
 ]

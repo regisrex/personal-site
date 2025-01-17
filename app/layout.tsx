@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Instrument_Sans } from "next/font/google";
+import { Instrument_Sans, Inter } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/navbar";
 
 const font = Instrument_Sans({
   weight: '400',
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={font.className}
       >
+        <NavBar />
         {children}
       </body>
     </html>

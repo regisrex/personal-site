@@ -3,5 +3,5 @@ export default function P({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-    return <p className="text-sm text-slate-600">{children}</p>;
+    return <p className="text-gray-600">{children}</p>;
 }

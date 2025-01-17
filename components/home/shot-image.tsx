@@ -18,6 +18,7 @@ export default function ShotImage({ photo_url, alt }: IGalleryPhoto) {
                 src={photo_url}
                 alt={alt}
                 width={300}
+                blurDataURL={photo_url}
                 height={300}
                 unoptimized={true}
                 className={`transition-transform ${

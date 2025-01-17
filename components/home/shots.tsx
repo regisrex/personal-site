@@ -24,22 +24,9 @@ export default async function Shots() {
 
     return (
         <div className="relative space-y-4">
-            <div className="relative flex flex-wrap justify-center items-center">
+            <div className="relative flex flex-wrap justify-center grid grid-cols-3 items-center">
                 {gallery.map((image, i) => (
-                    <div
-                        key={i}
-                        className={`relative ${i % 2 === 0 ? "w-1/3" : "w-1/4"
-                            } mx-2 mb-6 hover:scale-105 transition-transform duration-500 overflow-hidden rounded-lg`}
-                        style={{
-                            zIndex: i % 3,
-                            transform: `rotate(${(i % 3) * 3 - 3}deg)`,
-                        }}
-                    >
-                        <ShotImage {...image} />
-                        <div className="absolute inset-0 bg-gradient-to-b  from-transparent to-black opacity-0 hover:opacity-100 flex flex-col justify-end p-4 text-white transition-opacity duration-300">
-                            <p className="text-sm">{image.alt || "No subtitle available"}</p>
-                        </div>
-                    </div>
+                        <ShotImage {...image}  key={i}/>
                 ))}
             </div>
         </div>

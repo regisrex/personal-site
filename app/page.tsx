@@ -83,7 +83,7 @@ export default function Home() {
             Works <span className="opacity-20">#</span>
           </p>
           <P>
-          This is what I would include in my resume if I were to write one. Most of these projects were freelance work, where I contributed to frontend, backend, design, or sometimes all three. If you&apos;re curious about what I worked on for each project <Link href={'/resume'} className="underline underline-offset-4 text-decoration-slate-50" >check out my full resume.</Link>
+          This is what I would include in my resume if I were to write one. Most of these projects were freelance work, where I contributed to frontend, backend, design, or sometimes all three. If you&apos;re curious about what I worked on for each project <a target="_blank" href={'https://docs.google.com/document/d/1vrGbvP8AUydz1PsbqKyt24F_pjLdEmYHUo4E2Qe0j54/edit?usp=sharing'} className="underline underline-offset-4 text-decoration-slate-50" >check out my full resume.</a>
           </P>
           <div className="mt-6">
             {works.map((work, index) => (

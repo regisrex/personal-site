@@ -16,7 +16,7 @@ const socials = [
     },
     {
         name: "Designs",
-        href: "https://www.behance.net/nregis"
+        href: "https://ui.regisrex.me"
     },
     {
         name: "Email",
@@ -41,6 +41,7 @@ export default function NavBar() {
     return (
         <div className="flex flex-col gap-10 items-center justify-between px-[5vw] md:px-[20vw] lg:px-[28vw] py-10 w-full border-b  border-slate-50">
             <div className="flex items-center flex-wrap justify-center gap-4">
+               {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="https://github.com/regisrex.png" alt="" className="w-10 h-10 rounded-full object-cover" />
                 <span className="md:text-4xl  text-2xl font-black" style={headfont.style}>NDIZIHIWE Regis</span>
             </div>

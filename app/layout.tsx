@@ -27,6 +27,12 @@ export default function RootLayout({
         <NavBar />
         {children}
       </body>
+      <script
+        defer
+        data-website-id="trk_uz1xbhrrd8e"
+        data-domain="regisrex.me"
+        src="https://metriq.netlify.app/js/script.js">
+      </script>
     </html>
   );
 }
